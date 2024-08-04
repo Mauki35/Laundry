@@ -1,0 +1,68 @@
+/* General styling for body */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Container styling */
+.container {
+    margin-top: 50px;
+}
+
+/* Alert box styling */
+.alert {
+    font-size: 1.2em;
+}
+
+/* Form group styling */
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    margin-right: 1rem;
+    font-weight: bold;
+}
+
+.form-group p {
+    margin: 0;
+    flex-grow: 1;
+    text-align: right;
+}
+
+/* Button styling */
+.btn-primary, .btn-secondary {
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+/* Form group text-right for aligning buttons */
+.form-group.text-right {
+    justify-content: flex-end;
+}

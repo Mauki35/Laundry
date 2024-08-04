@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    width: 100px; /* Adjust the width to fit the logo appropriately */
+    height: auto;
+}
+
+header {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0; /* Adjust padding to align items properly */
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+h2 {
+    color: #007bff;
+}
+
+
+main {
+    background-color: #f2f2ff;
+    padding: 50px 0;
+}
+
+footer {
+    background-color: #f8f9fa;
+}
+
+main h2 {
+    color: #007bff;
+}
+
+main p {
+    font-size: 1.1em;
+    color: #333;
+}
+
+.service-details h3 {
+    color: #007bff;
+    margin-top: 30px;
+}
+
+.dropdown-menu {
+    width: 100%;
+}
+
+.dropdown-item {
+    color: #007bff;
+    cursor: pointer;
+}
+
+.dropdown-item:hover {
+    background-color: #f2f2ff;
+}
+
+.collapse .card-body {
+    background-color: #f2f2ff;
+}
+.background image 

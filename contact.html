@@ -1,0 +1,70 @@
+<?php
+include("connect.php");
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+<title>Form Submit to Send Email</title>
+<link rel="stylesheet" type="text/css" href="contact.css">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <div class="container">
+      <img src="img/logo.png" alt="Laundry Hub Logo" class="logo">
+      <ul class="contact-info list-unstyled">
+          <li><i class="fas fa-map-marker-alt"></i> 1<sup>st</sup> Floor, Diana Plaza, Temple Road</li>
+          <li><i class="fa fa-phone"></i> +254 700 00 000 / +254 700 000 000</li>
+          <li><i class="fas fa-envelope"></i> sales@laundryhub.com</li>
+          <li><i class="fas fa-clock"></i> Monday - Saturday: 07:00am - 10:00pm</li>
+      </ul>
+  </div>
+</header>
+
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container">
+      <a class="navbar-brand" href="#">Laundry Hub</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+              <li class="nav-item"><a class="nav-link" href="services.html">Our Services</a></li>
+              <li class="nav-item"><a class="nav-link" href="book now.php">Book Now</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+          </ul>
+      </div>
+  </div>
+</nav>
+
+<div class="form-container">
+  <form action="https://formsubmit.co/el/confirm/db47e32a1443ccc2015f14f888306e9e" method="post">
+    <div class="input-row">
+      <label>Name <em>*</em></label> 
+      <input type="text" name="userName" required id="userName"> 
+    </div>
+    <div class="input-row">
+      <label>Email <em>*</em></label> 
+      <input type="email" name="userEmail" required id="userEmail"> 
+    </div>
+    <div class="input-row">
+      <label>Phone <em>*</em></label> 
+      <input type="text" name="userPhone" required id="userPhone">
+    </div>
+    <div class="input-row">
+      <label>Message <em>*</em></label> 
+      <textarea name="userMessage" required id="userMessage"></textarea>
+    </div>
+    <div class="input-row">
+      <button type="submit">Send</button>  
+    </div>
+  </form>
+</div>
+
+</body>
+</html>

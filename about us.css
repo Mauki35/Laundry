@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    width: 100px; /* Adjust the width to fit the logo appropriately */
+    height: auto;
+}
+
+header {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0; /* Adjust padding to align items properly */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    align-items: center;
+}
+
+h2 {
+    color: #007bff;
+}
+
+footer {
+    border-top: 1px solid #ddd;
+    padding: 10px 0; /* Add padding for better spacing */
+}
+
+.container {
+    max-width: 1200px; /* Optional: Limit the container width for better layout on larger screens */
+    margin: 0 auto; /* Center the container */
+}
+
+.hero-section {
+    background-color: #004085;
+    padding: 60px 0;
+}
+
+.hero-section h1, .hero-section p {
+    color: white;
+}
+
+  
+  

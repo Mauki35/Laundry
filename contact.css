@@ -1,0 +1,102 @@
+/* Reset some default styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    width: 100px; /* Adjust the width to fit the logo appropriately */
+    height: auto;
+}
+
+header {
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0; /* Adjust padding to align items properly */
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+  
+  header .contact-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header .contact-info li {
+    margin-bottom: 5px;
+  }
+  
+  header .contact-info i {
+    margin-right: 10px;
+  }
+  
+  /* Navbar styles */
+  nav.navbar {
+    background-color: #007bff; /* Blue color */
+  }
+  
+  nav.navbar .navbar-brand, 
+  nav.navbar .nav-link {
+    color: #ffffff; /* White text color */
+  }
+  
+  nav.navbar .nav-link {
+    margin-left: 20px;
+  }
+  
+  nav.navbar .nav-link:hover {
+    color: #e9ecef; /* Lighter color on hover */
+  }
+  
+  /* Form container styles */
+  .form-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-row {
+    margin-bottom: 15px;
+  }
+  
+  .input-row label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .input-row input,
+  .input-row textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+  
+  .input-row textarea {
+    height: 150px;
+    resize: vertical;
+  }
+  
+  .input-row button {
+    background-color: #007bff; /* Blue button */
+    color: #ffffff; /* White text color */
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  s
+  .input-row button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
